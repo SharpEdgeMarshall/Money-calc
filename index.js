@@ -20,6 +20,8 @@ rl.question("Enter your number: ", function(answer) {
 
 	console.log(combi);
 
+	console.log("There are: " + combi.length + " combinations!");
+
 	rl.close();
 });
 
